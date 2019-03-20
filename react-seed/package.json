@@ -1,10 +1,48 @@
 {
-  "name": "react-seed",
+  "name": "to-do-list",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "16.8.4",
-    "react-dom": "16.8.4",
-    "react-scripts": "2.1.8"
-  }
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "ajv": "^6.5.4",
+    "axios": "^0.18.0",
+    "babel-jest": "^23.6.0",
+    "bootstrap": "^4.3.1",
+    "react": "^16.5.2",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.4",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "shuffle-array": "^1.0.1",
+    "superagent": "^4.0.0-beta.5"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aaronmeade92/to-do-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aaronmeade92/to-do-list/issues"
+  },
+  "homepage": "https://github.com/Aaronmeade92/to-do-list#readme",
+  "description": "",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
